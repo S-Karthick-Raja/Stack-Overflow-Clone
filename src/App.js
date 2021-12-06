@@ -1,17 +1,21 @@
 import "./App.css";
-import { Switch } from "react-router-dom";
 import { Topbar } from "./Topbar";
 import { Sidebar } from "./Sidebar";
-import { Bottom_navbar } from "./Bottom_navbar";
+import { BottomNavbar } from "./BottomNavbar";
+import { Switch, Route, Redirect } from "react-router-dom";
+import { Login } from "./Login";
 
 export default function App() {
   return (
     <div className="App">
       <Topbar />
       <Sidebar />
-      <Bottom_navbar/>
-      <Switch></Switch>
+      <Login/>
+      <BottomNavbar/>
+      <Switch>
+      </Switch>
     </div>
   );
 }
+
 

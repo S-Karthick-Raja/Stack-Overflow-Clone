@@ -1,4 +1,5 @@
-export function Bottom_navbar() {
+export function BottomNavbar() {
+  
   return (
     <div className="Bottom_navbar">
       <div className="logo">
@@ -56,3 +57,15 @@ export function Bottom_navbar() {
     </div>
   );
 }
+
+// {details.map(({ blog, Facebook, Twitter, LinkedIn, Instagram }) => (
+//   <BottomNavbar blog={blog} Facebook={Facebook} Twitter={Twitter} LinkedIn={LinkedIn} Instagram={Instagram} />))}
+// const details = [
+//   {
+//     blog: "blog",
+//     Facebook: "Facebook",
+//     Twitter: "Twitter",
+//     LinkedIn: "LinkedIn",
+//     Instagram: "Instagram",
+//   },
+// ];

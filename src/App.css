@@ -21,7 +21,7 @@
   display: flex;
   flex-direction: column;
   width: 165px;
-  height: 85vh;
+  height: 100vh;
   padding-top: 30px;
   padding-bottom: 10px;
   border-right: 3px solid rgb(248,249,249);
@@ -32,6 +32,8 @@
   justify-content: space-around;
   background-color: #232629;
   display: flex;
+  width: 100%;
+  bottom: 0;
 }
 p{
   font-size: 12px;
@@ -40,4 +42,9 @@ p{
 }
 .logo{
   padding-top: 15px;
+}
+.LoginPage{
+  padding: 20px;
+  gap: 10px;
+  display: flex;
 }
