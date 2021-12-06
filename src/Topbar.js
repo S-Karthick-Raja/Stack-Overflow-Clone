@@ -9,7 +9,7 @@ export function Topbar() {
   return (
     <div className="Topbar">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Stack_Overflow_logo.svg/1280px-Stack_Overflow_logo.svg.png"
-          alt="Stack-Overflow-LOGO" style={{ width: "150px", heigth: "50px", objectFit: "cover" }} />
+          alt="Stack-Overflow-LOGO" style={{ width: "120px", heigth: "50px", objectFit: "cover" }} />
         <Button variant="contained">Product</Button>
         <input placeholder="Search…" inputProps={{ ariaLabel: "search" }} style={{ width: "650px", height: "35px" }} />
         <Button > <AccountBoxIcon/> </Button>

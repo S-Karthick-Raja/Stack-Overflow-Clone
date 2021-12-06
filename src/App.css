@@ -3,14 +3,29 @@
   font-family: 'Poppins', sans-serif;
 }
 .Topbar{
+  border-top: 3px solid rgb(244,130,37);
   display: flex;
   flex-wrap: nowrap;
-  padding-left: 20px;
+  padding-left: 30px;
   align-content: space-between;
   align-items: center;
   height: 60px;
   gap: 10px;
   background-color: rgb(248,249,249);
+  box-shadow: -1px 6px 5px -3px rgba(176,174,174,0.75);
 }
-
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  width: 165px;
+  height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-right: 3px solid rgb(248,249,249);
+  align-items: flex-start;
+}
+.Bottom_navbar{
+  height: 322px;
+  background-color: rgb(35,38,41);
+}
 
